@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-look{
+  margin-top: -4px;
+}
+.section-look .container-look {
+  display: flex;
+  margin-top: 48px;
+}
+
+.section-look .container-look .content-img-look {
+  position: relative;
+  width: 50%;
+}
+.section-look .container-look .content-img-look img {
+  width: 100%;
+  height: 516px;
+}
+.container-look .content-text-look {
+  background-image: url(https://cdn.shopify.com/s/files/1/0747/7634/6925/files/Vector.png?v=1680962059);
+  background-repeat: no-repeat;
+  width: 50%;
+  margin-left: 30px;
+  padding: 84px 92px 96.79px 74px;
+}
+.container-look .content-text-look .title-look {
+  max-width: 486px;
+  height: 102px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  color: #2e190f;
+}
+.container-look .content-text-look .parraf-look {
+  margin-top: 29px;
+  max-width: 452px;
+  height: 189px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+/*--------------------- media-query-section-look--------------------------------*/
+@media (max-width: 1150px) {
+  .container-look .bell {
+    padding: 200px 100px 80px 100px;
+  }
+  .container-look .content-text-look .botton-look {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .container-look .content-text-look .title-look {
+    font-size: 35px;
+  }
+  .container-look .content-text-look .high {
+    font-size: 24px;
+  }
+}
+@media (max-width: 990px) {
+  .variety{
+    padding: 0;
+  }
+  .section-look .container-look {
+    flex-direction: column;
+  }
+  .section-look .container-look .content-img-look {
+    width: 100%;
+  }
+  .container-look .content-text-look {
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    padding: 71.7px 92px;
+  }
+
+  .container-look .content-text-look .title-look,
+  .parraf-look {
+    margin: auto;
+  }
+  .container-look .hand {
+    height: 406px;
+  }
+  .container-look .content-text-look .botton-look {
+    margin: 70px auto;
+    max-width: 387px;
+  }
+  .container-look .plant {
+    max-height: 406px;
+    padding: 115px 20px;
+  }
+
+
+}
+@media (max-width: 550px) {
+  .container-look .content-text-look {
+    padding: 71px 20px;
+  }
+.section-chip .container-chip .text-chip{
+  width: 388px;
+  font-size: 15px;
+  padding: 0 10px;
+}
+
+}
+
+@media (max-width: 460px) {
+ 
+  
+  .container-look .plantet {
+    display: none;
+  }
+  .container-look .eating{
+    background-image: url(/img/sharktank_img\ 1.png);
+    background-repeat: repeat;
+    height: 380px;
+  }
+  .section-look .feel .circle-blan,
+  .eating img{
+display: none;
+  }
+  .section-look .container-look .content-img-look img {
+    width: 100%;
+    height: 302px;
+  }
+  .section-look .container-look .image img {
+    height: 405.65px;
+  }
+  .container-look .content-text-look .title-look {
+    font-size: 25px;
+    line-height: 37px;
+  }
+  .container-look .content-text-look .high {
+    font-size: 22px;
+  }
+
+  .container-look .content-text-look .parraf-look {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .container-look .content-text-look .meal {
+    display: flex;
+    font-size: 23px;
+  }
+  .container-look .content-text-look .sent {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 390px) {
+  .section-look .feel .circle-blan,
+  .eating img{
+  display: block;
+  }
+  .section-look .feel .circle-blan{
+    top: 687px;
+    width: 61.71px;
+    height: 61.71px;
+  }
+  .section-look .container-look .image .log {
+    position: absolute;
+    top: 687px;
+    width: 61.71px;
+    height: 61.71px;
+    
+  }
+  .container-look .that{
+    padding: 35px 20px;
+  }
+  .container-look .content-text-look .title-look {
+    font-size: 25px;
+    width: 264px;
+    height: 75px;
+  }
+}
+
+

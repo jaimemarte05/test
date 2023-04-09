@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-slider {
+  margin-top: 69px;
+  background-image: url(/img/Background\ \(2\).png);
+  background-repeat: no-repeat;
+  max-height: 511.23px;
+  text-align: center;
+}
+.section-slider .title-tasty {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+  color: #2e190f;
+}
+.section-slider .container-slider {
+  margin-top: 52px;
+}
+.swiper-aro {
+  width: 100%;
+  height: 300px;
+}
+.section-slider .container-slider .tex-aro {
+  margin: auto;
+  margin-top: 30.22px;
+  max-width: 386px;
+  height: 79.11px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+.section-slider .container-slider .name-aro {
+  margin-top: 15px;
+  height: 23.78px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #2e190f;
+}

@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  /*--------------------------HEADER-TADAH--------------------------------*/  
+
+.head{
+    height: 122px;
+  
+  }
+  .nav-menu-head{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: #ffffff;   
+  }   
+  .head .box-color {
+    display: flex;   
+  }
+  .head .box-color .box {
+    width: 25%;
+    height: 12.54px;
+  }
+  .head .box-color .hello {
+    background-color: #f7d633;
+  }                                                     
+  .head .box-color .red {
+    background-color: #e12843;
+  }
+  .head .box-color .blue {
+    background-color: #72cee8;
+  }
+  .head .box-color .orange {
+    background-color: #f47d34;
+  }
+  
+  .head .nav-menu {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 104.87px 31px 133px;
+  }
+  .head .nav-menu .logo img {
+    max-width: 183.32px;
+    height: 54px;
+  }
+  .head .nav-menu .menu-tadah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .head .nav-menu .menu-tadah a {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2e190f;
+    margin-right: 30.05px;
+  }
+  .menu-tadah .menu-major a:hover {
+    color: #F47D34;
+  }
+  .head .nav-menu .menu-tadah .shopping-cart img {
+    width: 27.05px;
+    height: 27.57px;
+    margin-left: 46.09px;
+  }
+  .open-btn-menu{
+    display: none;
+  }
+
+  @media (max-width: 990px) {
+    .head .nav-menu .menu-major {
+      display: none;
+    }
+  }
+  @media (max-width: 800px) {
+    .head .nav-menu .menu-major.activado {
+      display: inline-grid;
+      grid-gap:135px;
+      position: fixed;
+      top: 122px;
+      left: 0;
+      background-color: darkgoldenrod;
+      width: 100%;
+      height: 85%;
+      padding: 60px;
+  
+     
+  }
+  .head .nav-menu .menu-major.desactivado {
+    display: none;
+  }
+  
+  .head .nav-menu .menu-major a {
+    border-bottom: 1px solid rgba(255, 255, 255, 255);
+    
+  }
+  .open-btn-menu{
+    display: block;
+  }
+
+    }
+  
+  
