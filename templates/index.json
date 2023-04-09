@@ -1,61 +1,50 @@
 {
   "sections": {
     "section-fresh": {
-      "type": "section-fresh"
+      "type": "section-fresh",
+      "settings": {
+      }
     },
     "section-banner": {
       "type": "section-banner",
-      
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "section-look": {
       "type": "section-look",
       "settings": {
-      
       }
     },
     "section-slider": {
       "type": "section-slider",
-     
       "settings": {
-       
       }
     },
     "section-veriety": {
-
       "type": "section-veriety",
       "settings": {
-
       }
     },
     "section-chip": {
       "type": "section-chip",
-      "blocks": {
-       
-      },
-      "block_order": [
-       
-      ],
       "settings": {
-      
       }
     },
     "section-high": {
-      "type": "section-high"
+      "type": "section-high",
+      "settings": {
+      }
     },
     "section-plant-based": {
-      "type": "section-plant-based"
+      "type": "section-plant-based",
+      "settings": {
+      }
     },
-
     "section-feel": {
-      "type": "section-feel"
+      "type": "section-feel",
+      "settings": {
+      }
     }
-    
   },
   "order": [
     "section-fresh",
