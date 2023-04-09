@@ -1,0 +1,116 @@
+.section-falot {
+  position: relative;
+}
+.section-falot .container-falot {
+  position: absolute;
+  top: -170px;
+  z-index: -1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(https://cdn.shopify.com/s/files/1/0747/7634/6925/files/tadah_logo_1_c4cdd78c-ca3e-4714-9571-5341f6596a0e.png?v=1680986431);
+  background-repeat: no-repeat;
+  background-color: #f47d34;
+  background-position: bottom;
+}
+.section-falot .container-falot .letf-img {
+  margin-top: 46px;
+}
+.section-falot .container-falot .letf-img img,
+.right-img img {
+  width: 100%;
+}
+.section-falot .container-falot .content-falot {
+  text-align: center;
+  margin-top: 200px;
+}
+.section-falot .container-falot .content-falot .title-falot {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+  color: #ffffff;
+}
+.section-falot .container-falot .content-falot .botton-falot {
+  margin: 20.59px auto;
+}
+.section-falot .container-falot .content-falot .social-networks {
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+}
+.section-falot .container-falot .content-falot .menu-falot {
+  margin-top: 104px;
+}
+.section-falot .container-falot .content-falot .menu-falot a {
+  color: #ffffff;
+  margin: 30px;
+}
+.section-falot .container-falot .content-falot .footer {
+  margin-top: 28.83px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #2e190f;
+}
+@media (max-width: 990px) {
+  .section-falot .container-falot {
+    background-size: contain;
+    height: 950px;
+    top: 0;
+  }
+  .section-falot .container-falot .letf-img,
+  .right-img {
+    position: absolute;
+    bottom: 0;
+  }
+  .right-img {
+    right: 0;
+  }
+  .section-falot .container-falot .letf-img img,
+  .right-img img {
+    height: 500px;
+  }
+
+  .section-falot .container-falot .content-falot {
+    margin: auto;
+    margin-top: 43px;
+  }
+  .section-falot .container-falot .content-falot .social-networks {
+    margin-top: 43px;
+  }
+
+  .section-falot .container-falot .content-falot .menu-falot {
+    margin-top: 42px;
+  }
+
+  .section-falot .container-falot .content-falot .menu-falot .menu-major {
+    display: grid;
+  }
+  .section-falot .container-falot .content-falot .menu-falot a {
+    margin: 10px;
+  }
+}
+@media (max-width: 560px) {
+  .section-falot .container-falot {
+    background-size: contain;
+    background-position: center;
+  }
+
+  .section-falot .container-falot .letf-img img,
+  .right-img img {
+    height: 300px;
+  }
+  .section-falot .container-falot .content-falot .menu-falot a {
+    margin: 22px;
+  }
+  .section-falot .container-falot .content-falot .botton-falot {
+    margin-top: 35px;
+  }
+}
