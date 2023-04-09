@@ -103,11 +103,11 @@ a {
   .open-btn-menu {
     display: block;
   }
-  @media (max-width: 550px) {
+  @media (max-width: 460px) {
+    .head {
+      height: 55px;
+    }
     .head .nav-menu {
-      width: 100%;
-      margin: auto;
-      display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 26px 20px;
