@@ -3,12 +3,8 @@
     padding: 0;
     box-sizing: border-box;
   }
-  .section-look{
-    margin-top: -4px;
-  }
   .section-look .container-look {
     display: flex;
-    margin-top: 48px;
   }
   .section-look .feel {
     display: flex;
